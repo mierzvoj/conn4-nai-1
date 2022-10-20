@@ -1,0 +1,10 @@
+/*
+Simple CSS provides HTML body and graphical elements display properties
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
