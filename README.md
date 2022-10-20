@@ -1,5 +1,7 @@
 # conn4-nai-1
 
+## Łukasz Cettler (s20168) oraz Wojciech Mierzejewski () - grupa 74C
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
