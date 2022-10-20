@@ -1,6 +1,6 @@
 class Grid {
   // Class Grid constructor, sets required game board boundary coordinates, sets grid itself as an empty array,
-  //then adds second Y coordinate to make a square grid 
+  //then adds second Y coordinate to make a square grid [x][y]
   constructor() {
     this.maxY = 6;
     this.maxX = 7;
@@ -15,7 +15,7 @@ class Grid {
   setElement(who,y,x) {
     this.grid[y][x] = who;
   }
-  //Returns grid cell for given ooordinates,  
+  //Returns grid cell for given coordinates,  
   //Parameters y, x: number, returns: array[][] type: number, 
   
   getElement(y,x){
@@ -55,7 +55,7 @@ class Grid {
     }
     return -1;
   }
-  //Winning geometry logic setup 
+  //Winning geometry logic setup, tiles patters showing winning combinations 
   isWinning(y,x){
     if(this.getElement(y,x) != 0){
       if(

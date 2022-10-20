@@ -33,6 +33,7 @@ class Game {
       this.humanTurn = 1;
   }
   //winner check for human 1 or AI 2, announces winner as JS alert
+  //Parameters: none, return: void
   checkWinner() {
     var winner = this.grid.checkWinner();
     if(winner==1){

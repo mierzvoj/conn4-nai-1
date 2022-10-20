@@ -2,7 +2,7 @@ class AI{
   //AI class constructor: evaluation table indicates possible combinations
   //of four tiles connected, depending on the position on the gameboard starting point. It is clear, that
   //centre locations are more "attractive" for building a succesfull score, because they yield 
-  //more combinations. 
+  //more winning combinations. 
     
   constructor(){
     this.evaluationTable = [[3, 4, 5, 7, 5, 4, 3],
@@ -86,7 +86,8 @@ class AI{
     }
     return score;
   }
-  //Function parameter grid object, returns sum of heuristic values for each position on playing board
+  //Function returns sum of heuristic values for each position on playing board
+  //Parameter: g: grid, return sum: number, summary of heuristic values from evaluation table
   evaluatePosition(g){
     var winner = g.checkWinner();
     if(winner==2){

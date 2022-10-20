@@ -1,11 +1,11 @@
 //JS script to provide graphical features of the game set up:
-//cells sizes on backgroud Canvas
+//cells sizes on background Canvas
 
 var width = 700;
 var height = 600;
 var size = 100;
 var game;
-//Cells size =s definition
+//Cells sizes definition
 function setup() {
   var w = 700;
   var h = 600;
